@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAFFINO | coffee and more</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<div class="navbar">
+    <div class="logo">
+        <span class="caff">CAFF</span><span class="ino">INO</span>
+    </div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li class="dropdown">
+            <a href="#best-sellers">Best Sellers <i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+                <li><a href="#caramel-latte">Caramel Latte</a></li>
+                <li><a href="#cappacino">Classic Cappuccino</a></li>
+                <li><a href="#Mocha">Mocha</a></li>
+                <li><a href="#chocolate-cake">Chocolate Cake</a></li>
+                <li><a href="#More">More..</a></li>
+            </ul>
+        </li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#testimonials">Testimonial</a></li>
+        <li><a href="#team">Our Team</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+    <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+</div>
+
+<!-- ================= HOME ================= -->
+<section class="home" id="home">
+    <div class="home-content">
+        <p class="small-title">WELCOME TO</p>
+        <h1>CAFF<span>INO</span></h1>
+        <h2>Taste The Difference</h2>
+        <p class="home-text">Where every cup tells a story. Fresh coffee, delicious desserts, and unforgettable moments.</p>
+        <div class="home-buttons">
+            <a href="#" class="btn">Order Now</a>
+            <a href="#" class="btn">Contact US</a>
+        </div>
+    </div>
+    <div class="home-image">
+        <img src="image/home.jpg" alt="Coffee">
+    </div>
+</section>
+
+<!-- ================= BEST SELLERS ================= -->
+<section class="best-sellers" id="best-sellers">
+    <div class="section-title">
+        <p>OUR FAVORITES</p>
+        <h2 class="h2-line">Best <span>Sellers</span></h2>
+    </div>
+    <div class="cards">
+
+        <div class="card">
+            <div class="card-image">
+                <img src="image/caramel latte.jpg" alt="Coffee">
+            </div>
+            <div class="card-icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card-content" id="caramel-latte">
+                <h3>Caramel Latte</h3>
+                <p>Smooth coffee with creamy caramel flavor.</p>
+                <div class="card-bottom">
+                    <span class="price">85 EGP</span>
+                    <a href="#" class="btn-order">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image" id="cappacino">
+                <img src="image/cappacino.jpg" alt="Coffee">
+            </div>
+            <div class="card-icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card-content">
+                <h3>Classic Cappuccino</h3>
+                <p>Rich espresso topped with creamy milk foam.</p>
+                <div class="card-bottom">
+                    <span class="price">75 EGP</span>
+                    <a href="#" class="btn-order">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image" id="Mocha">
+                <img src="image/mocha.jpg" alt="Coffee">
+            </div>
+            <div class="card-icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card-content">
+                <h3>Mocha</h3>
+                <p>Perfect combination of coffee and chocolate.</p>
+                <div class="card-bottom">
+                    <span class="price">90 EGP</span>
+                    <a href="#" class="btn-order">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="image/ICE COO.webp" alt="Iced Coffee">
+            </div>
+            <div class="card-icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card-content">
+                <h3>Ice Coffee</h3>
+                <p>Chilled coffee with a smooth taste and a refreshing finish.</p>
+                <div class="card-bottom">
+                    <span class="price">85 EGP</span>
+                    <a href="#" class="btn-order">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="image/espresso.jpg" alt="Espresso">
+            </div>
+            <div class="card-icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card-content">
+                <h3>Espresso</h3>
+                <p>Rich, bold espresso with an intense aroma and smooth finish.</p>
+                <div class="card-bottom">
+                    <span class="price">45 EGP</span>
+                    <a href="#" class="btn-order">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="image/Macchiato.jpg" alt="Macchiato">
+            </div>
+            <div class="card-icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card-content">
+                <h3>Macchiato</h3>
+                <p>Rich espresso topped with a delicate layer of creamy milk foam.</p>
+                <div class="card-bottom">
+                    <span class="price">55 EGP</span>
+                    <a href="#" class="btn-order">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="image/Hot Chocolate.jpg" alt="Hot Chocolate">
+            </div>
+            <div class="card-icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card-content">
+                <h3>Hot Chocolate</h3>
+                <p>Rich, creamy chocolate in every warm, comforting sip.</p>
+                <div class="card-bottom">
+                    <span class="price">60 EGP</span>
+                    <a href="#" class="btn-order">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="image/tea2.jpg" alt="Tea">
+            </div>
+            <div class="card-icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card-content">
+                <h3>Tea</h3>
+                <p>Refreshing tea with a smooth taste and relaxing aroma.</p>
+                <div class="card-bottom">
+                    <span class="price">35 EGP</span>
+                    <a href="#" class="btn-order">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="image/shake2.jpg" alt="Milk Shake">
+            </div>
+            <div class="card-icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card-content">
+                <h3>Milk Shake</h3>
+                <p>Creamy milkshake blended with rich and delicious flavors.</p>
+                <div class="card-bottom">
+                    <span class="price">95 EGP</span>
+                    <a href="#" class="btn-order">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="image/cream2.jpg" alt="Ice Cream">
+            </div>
+            <div class="card-icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card-content">
+                <h3>Ice Cream</h3>
+                <p>The best ice cream.</p>
+                <div class="card-bottom">
+                    <span class="price">50 EGP</span>
+                    <a href="#" class="btn-order">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image" id="chocolate-cake">
+                <img src="image/chocolate cake.jpeg" alt="Dessert">
+            </div>
+            <div class="card-icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card-content">
+                <h3>Chocolate Cake</h3>
+                <p>Soft chocolate cake with a delicious topping.</p>
+                <div class="card-bottom">
+                    <span class="price">60 EGP</span>
+                    <a href="#" class="btn-order">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="image/Croissant.jpg" alt="Croissant">
+            </div>
+            <div class="card-icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card-content">
+                <h3>Croissant</h3>
+                <p>Buttery, flaky, and freshly baked to golden perfection.</p>
+                <div class="card-bottom">
+                    <span class="price">50 EGP</span>
+                    <a href="#" class="btn-order">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="image/Beef Burger.jpg" alt="Beef Burger">
+            </div>
+            <div class="card-icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card-content">
+                <h3>Beef Burger</h3>
+                <p>Juicy grilled beef patty layered with fresh ingredients, served in a soft toasted bun for the perfect bite.</p>
+                <div class="card-bottom">
+                    <span class="price">140 EGP</span>
+                    <a href="#" class="btn-order">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="image/Chicken Burger.jpg" alt="Chicken Burger">
+            </div>
+            <div class="card-icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card-content">
+                <h3>Chicken Burger</h3>
+                <p>Tender grilled chicken topped with fresh ingredients, served in a soft toasted bun for a delicious, satisfying bite.</p>
+                <div class="card-bottom">
+                    <span class="price">130 EGP</span>
+                    <a href="#" class="btn-order">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="image/Chicken Wrap.jpg" alt="Chicken Wrap">
+            </div>
+            <div class="card-icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card-content">
+                <h3>Chicken Wrap</h3>
+                <p>Tender chicken wrapped with fresh vegetables and flavorful sauce in a soft, warm tortilla.</p>
+                <div class="card-bottom">
+                    <span class="price">110 EGP</span>
+                    <a href="#" class="btn-order">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="image/french fries.jpg" alt="French Fries">
+            </div>
+            <div class="card-icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card-content" id="More">
+                <h3>French Fries</h3>
+                <p>Crispy golden French fries, freshly prepared and perfectly seasoned, tender center in every bite.</p>
+                <div class="card-bottom">
+                    <span class="price">60 EGP</span>
+                    <a href="#" class="btn-order">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <button class="btn-menu">Menu</button>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+    <div class="about-image-box">
+        <div class="about-image">
+            <img src="image/blog2.png" alt="Cafe">
+        </div>
+        <div class="slider-dots">
+            <span class="active"></span><span></span><span></span>
+        </div>
+    </div>
+    <div class="about-content">
+        <p class="small-title">ABOUT CAFFINO</p>
+        <h2>More Than Just <span>Coffee</span></h2>
+        <p>At CAFFINO, we believe that coffee is not just a drink. It's a moment, a feeling, and a reason to slow down.</p>
+        <p>We serve carefully selected coffee, fresh desserts, and create a comfortable place for everyone.</p>
+        <a href="#" class="btn">Discover More</a>
+    </div>
+</section>
+
+<!-- ================= BLOG ================= -->
+<section class="blog" id="blog">
+    <div class="blog-title">
+        <span>OUR BLOG</span>
+        <h2>Latest From Our Cafe</h2>
+        <p>Discover stories, coffee tips, and delicious moments from our cafe.</p>
+    </div>
+    <div class="blog-cards">
+
+        <div class="blog-card">
+            <div class="blog-img">
+                <img src="image/blog1.jpg" alt="Coffee">
+                <span>COFFEE</span>
+            </div>
+            <div class="blog-content">
+                <p class="blog-date"><i class="fa-regular fa-calendar"></i> September 7, 2026</p>
+                <h3>The Art of a Perfect Cup of Coffee</h3>
+                <p>Discover what makes a great cup of coffee, from the beans to the perfect brewing method.</p>
+                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <div class="blog-img">
+                <img src="image/blog2.png" alt="Cafe">
+                <span>LIFESTYLE</span>
+            </div>
+            <div class="blog-content">
+                <p class="blog-date"><i class="fa-regular fa-calendar"></i> September 5, 2026</p>
+                <h3>Why Cafes Are The Perfect Place To Relax</h3>
+                <p>A warm drink, a cozy atmosphere, and a little time for yourself can make your day better.</p>
+                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <div class="blog-img">
+                <img src="image/desserts.jpg" alt="Dessert">
+                <span>DESSERTS</span>
+            </div>
+            <div class="blog-content">
+                <p class="blog-date"><i class="fa-regular fa-calendar"></i> September 3, 2026</p>
+                <h3>Sweet Moments With Our Favorite Desserts</h3>
+                <p>From creamy cakes to freshly baked treats, discover the desserts everyone loves.</p>
+                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="testimonials" id="testimonials">
+    <div class="testimonials-title">
+        <h2>What Our Customers Say</h2>
+        <p>Our customers' happiness is what makes us special.</p>
+    </div>
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"The coffee was amazing and the atmosphere was so relaxing. Definitely one of my favorite cafés!"</p>
+            <div class="customer">
+                <div class="customer-info">
+                    <h3>Ahmed Mohamed</h3>
+                    <span>Regular Customer</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"I really loved the place! The food was delicious, the staff were friendly, and everything was perfect."</p>
+            <div class="customer">
+                <div class="customer-info">
+                    <h3>Sarah Ali</h3>
+                    <span>Happy Customer</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"A beautiful place to enjoy coffee with friends. Great service and a wonderful atmosphere."</p>
+            <div class="customer">
+                <div class="customer-info">
+                    <h3>Omar Hassan</h3>
+                    <span>Customer</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= TEAM ================= -->
+<section class="team" id="team">
+    <div class="section-title">
+        <p>MEET OUR PEOPLE</p>
+        <h2 class="h2-line">Our <span>Team</span></h2>
+    </div>
+    <div class="team-cards">
+
+        <div class="team-card">
+            <div class="team-image">
+                <img src="image/team11.jpeg" alt="Barista">
+            </div>
+            <div class="team-content">
+                <h3>Ahmed Mohamed</h3>
+                <p>Head Barista</p>
+                <div class="team-social">
+                    <a href="#" class="face"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="whats"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-card">
+            <div class="team-image">
+                <img src="image/team3.avif" alt="Barista">
+            </div>
+            <div class="team-content">
+                <h3>Omar Ali</h3>
+                <p>Senior Barista</p>
+                <div class="team-social">
+                    <a href="#" class="face"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="whats"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-card">
+            <div class="team-image">
+                <img src="image/team 1.jpg" alt="Chef">
+            </div>
+            <div class="team-content">
+                <h3>Youmna Ahmed</h3>
+                <p>Pastry Chef</p>
+                <div class="team-social">
+                    <a href="#" class="face"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="whats"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-card">
+            <div class="team-image">
+                <img src="image/team2.jpeg" alt="Manager">
+            </div>
+            <div class="team-content">
+                <h3>Manar Hassan</h3>
+                <p>Cafe Manager</p>
+                <div class="team-social">
+                    <a href="#" class="face"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="whats"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= SPECIAL OFFER ================= -->
+<section class="special">
+    <div class="special-content">
+        <p>LIMITED TIME</p>
+        <h2>Coffee & Dessert <span>Combo</span></h2>
+        <h3>35% OFF</h3>
+        <p>Enjoy your favorite coffee with a delicious dessert.</p>
+        <a href="#" class="btn">Get The Offer</a>
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+    <div class="section-title">
+        <p>GET IN TOUCH</p>
+        <h2>Contact <span>Us</span></h2>
+    </div>
+    <div class="contact-box">
+
+        <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+                <h3>Location</h3>
+                <p>Egypt, Hurghada</p>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+                <h3>Phone</h3>
+                <p>+20 120 581 2658</p>
+                <p>+20 110 882 1146</p>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+                <h3>Email</h3>
+                <p>CAFFINO10@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <i class="fa-solid fa-clock"></i>
+            <div>
+                <h3>Hour Time</h3>
+                <p>Opening Hours: 9:00 AM - 11:00 PM</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <div class="footer-logo">
+        <span>CAFF</span><b>INO</b>
+    </div>
+    <p>Coffee, moments & memories.</p>
+    <div class="social">
+        <a href="#" class="face"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="insta"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="whats"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    <p>&copy; 2026 CAFFINO. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
