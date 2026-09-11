@@ -158,9 +158,7 @@ ul {
     justify-content: space-between;
     background-color: #FFF8F0;
 }
-.home-content {
-    width: 50%;
-}
+
 .small-title {
     color: #C9A06A;
     font-size: 13px;
@@ -237,6 +235,9 @@ ul {
 .section-title h2 span {
     color: #C9A06A;
 }
+
+
+
 /* ================= BEST SELLERS ================= */
 .best-sellers {
     padding: 90px 8%;
