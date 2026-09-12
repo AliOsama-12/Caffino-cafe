@@ -630,6 +630,20 @@ ul {
     background-color: #FFF8F0;
     overflow: hidden;
     transition: 0.3s;
+    position: relative;
+}
+.team-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    opacity: 0;
+    transition: 0.3s;
+    z-index: 1;
+    
+}
+.team-card:hover::after {
+    opacity: 1;
 }
 .team-card:hover {
     transform: translateY(-8px);
@@ -638,6 +652,8 @@ ul {
     width: 100%;
     height: 280px;
     overflow: hidden;
+    position: relative;
+    z-index: 0;
 }
 .team-image img {
     width: 100%;
@@ -653,6 +669,7 @@ ul {
     text-align: center;
     padding: 20px;
     position: relative;
+    z-index: 2;
 }
 .team-content h3 {
     color: #241A16;
@@ -670,6 +687,7 @@ ul {
     right: 0;
     display: flex;
     flex-direction: column;
+    z-index: 3;
 }
 .team-social a {
     width: 40px;
